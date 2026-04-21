@@ -1,0 +1,767 @@
+enrollment_id,student_id,student_name,student_email,course_id,course_name,subject,level,cohort_code,section_name,teacher_name,enrolled_on,last_activity,enrollment_state
+1,5000,Archie Roberts,archie.roberts100000@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-20 00:00:00,2026-05-13 00:00:00,active
+2,5000,Archie Roberts,archie.roberts100000@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-04-08 00:00:00,active
+3,5001,Theo Patel,theo.patel100001@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2026-05-15 00:00:00,active
+4,5001,Theo Patel,theo.patel100001@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-02 00:00:00,2026-02-16 00:00:00,completed
+5,5001,Theo Patel,theo.patel100001@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-11-02 00:00:00,active
+6,5001,Theo Patel,theo.patel100001@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-02 00:00:00,2026-03-15 00:00:00,active
+7,5002,Thomas Jones,thomas.jones100002@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-20 00:00:00,2026-01-22 00:00:00,active
+8,5002,Thomas Jones,thomas.jones100002@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-26 00:00:00,2026-04-03 00:00:00,active
+9,5002,Thomas Jones,thomas.jones100002@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-04-17 00:00:00,completed
+10,5002,Thomas Jones,thomas.jones100002@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-26 00:00:00,2026-05-14 00:00:00,completed
+11,5003,Lucas Hughes,lucas.hughes100003@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-02-23 00:00:00,active
+12,5003,Lucas Hughes,lucas.hughes100003@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-02-01 00:00:00,active
+13,5003,Lucas Hughes,lucas.hughes100003@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-26 00:00:00,2025-11-09 00:00:00,active
+14,5003,Lucas Hughes,lucas.hughes100003@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-12-24 00:00:00,completed
+15,5004,Henry Brown,henry.brown100004@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-01 00:00:00,2026-05-12 00:00:00,completed
+16,5004,Henry Brown,henry.brown100004@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-27 00:00:00,2025-11-10 00:00:00,active
+17,5004,Henry Brown,henry.brown100004@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-23 00:00:00,2026-03-28 00:00:00,active
+18,5004,Henry Brown,henry.brown100004@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2026-05-17 00:00:00,completed
+19,5005,William Thompson,william.thompson100005@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-23 00:00:00,2026-04-13 00:00:00,active
+20,5005,William Thompson,william.thompson100005@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-02-12 00:00:00,completed
+21,5006,Olivia Hall,olivia.hall100006@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-11-23 00:00:00,completed
+22,5006,Olivia Hall,olivia.hall100006@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-01-13 00:00:00,active
+23,5006,Olivia Hall,olivia.hall100006@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2025-11-18 00:00:00,completed
+24,5006,Olivia Hall,olivia.hall100006@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-11-09 00:00:00,active
+25,5007,Charlie Clarke,charlie.clarke100007@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-28 00:00:00,2026-02-15 00:00:00,active
+26,5007,Charlie Clarke,charlie.clarke100007@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2025-10-17 00:00:00,active
+27,5007,Charlie Clarke,charlie.clarke100007@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2025-12-20 00:00:00,completed
+28,5008,Emily Roberts,emily.roberts100008@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-02-18 00:00:00,completed
+29,5008,Emily Roberts,emily.roberts100008@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-02 00:00:00,2025-10-03 00:00:00,active
+30,5008,Emily Roberts,emily.roberts100008@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-02 00:00:00,2026-03-20 00:00:00,active
+31,5008,Emily Roberts,emily.roberts100008@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2026-03-20 00:00:00,completed
+32,5009,Evie Johnson,evie.johnson100009@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-01 00:00:00,2026-04-03 00:00:00,active
+33,5009,Evie Johnson,evie.johnson100009@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-12-25 00:00:00,active
+34,5010,Poppy Taylor,poppy.taylor100010@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-30 00:00:00,2026-03-25 00:00:00,active
+35,5010,Poppy Taylor,poppy.taylor100010@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-03 00:00:00,2025-11-07 00:00:00,active
+36,5010,Poppy Taylor,poppy.taylor100010@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-09-14 00:00:00,active
+37,5011,Noah Davies,noah.davies100011@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-01-01 00:00:00,completed
+38,5011,Noah Davies,noah.davies100011@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-12-16 00:00:00,completed
+39,5011,Noah Davies,noah.davies100011@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-30 00:00:00,2026-02-18 00:00:00,completed
+40,5011,Noah Davies,noah.davies100011@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-28 00:00:00,2026-03-31 00:00:00,active
+41,5012,Ruby Wright,ruby.wright100012@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-06 00:00:00,2025-10-02 00:00:00,active
+42,5012,Ruby Wright,ruby.wright100012@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2025-10-01 00:00:00,active
+43,5013,Olivia Davies,olivia.davies100013@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-20 00:00:00,2025-11-06 00:00:00,active
+44,5013,Olivia Davies,olivia.davies100013@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-04-23 00:00:00,active
+45,5014,Archie Brown,archie.brown100014@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2025-10-22 00:00:00,active
+46,5014,Archie Brown,archie.brown100014@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-29 00:00:00,2025-10-23 00:00:00,active
+47,5014,Archie Brown,archie.brown100014@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-03-09 00:00:00,completed
+48,5014,Archie Brown,archie.brown100014@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-10-03 00:00:00,active
+49,5015,Sophia Patel,sophia.patel100015@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-08 00:00:00,2026-04-02 00:00:00,active
+50,5015,Sophia Patel,sophia.patel100015@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-09-28 00:00:00,active
+51,5016,Grace Roberts,grace.roberts100016@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-05 00:00:00,2026-02-26 00:00:00,active
+52,5016,Grace Roberts,grace.roberts100016@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-05-10 00:00:00,active
+53,5016,Grace Roberts,grace.roberts100016@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-02 00:00:00,2026-03-06 00:00:00,completed
+54,5016,Grace Roberts,grace.roberts100016@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-24 00:00:00,2026-04-03 00:00:00,active
+55,5017,Harry Roberts,harry.roberts100017@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-04-30 00:00:00,completed
+56,5017,Harry Roberts,harry.roberts100017@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-01-22 00:00:00,active
+57,5017,Harry Roberts,harry.roberts100017@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2025-10-10 00:00:00,active
+58,5017,Harry Roberts,harry.roberts100017@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-01-05 00:00:00,completed
+59,5018,Oscar Johnson,oscar.johnson100018@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-20 00:00:00,2026-04-30 00:00:00,active
+60,5018,Oscar Johnson,oscar.johnson100018@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-05-01 00:00:00,active
+61,5018,Oscar Johnson,oscar.johnson100018@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-01-10 00:00:00,active
+62,5018,Oscar Johnson,oscar.johnson100018@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-28 00:00:00,2026-01-16 00:00:00,active
+63,5019,Jacob Patel,jacob.patel100019@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-01-05 00:00:00,completed
+64,5019,Jacob Patel,jacob.patel100019@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-09 00:00:00,2026-03-10 00:00:00,completed
+65,5019,Jacob Patel,jacob.patel100019@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-09-11 00:00:00,active
+66,5019,Jacob Patel,jacob.patel100019@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-29 00:00:00,2025-12-20 00:00:00,completed
+67,5020,Poppy Taylor,poppy.taylor100020@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-02-27 00:00:00,completed
+68,5020,Poppy Taylor,poppy.taylor100020@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-02-22 00:00:00,active
+69,5020,Poppy Taylor,poppy.taylor100020@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-03 00:00:00,2026-01-19 00:00:00,active
+70,5020,Poppy Taylor,poppy.taylor100020@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-28 00:00:00,2025-12-24 00:00:00,active
+71,5021,Theo Wilson,theo.wilson100021@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2025-12-01 00:00:00,active
+72,5021,Theo Wilson,theo.wilson100021@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-04 00:00:00,2026-01-23 00:00:00,active
+73,5021,Theo Wilson,theo.wilson100021@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-23 00:00:00,2025-11-30 00:00:00,active
+74,5021,Theo Wilson,theo.wilson100021@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-27 00:00:00,2026-02-27 00:00:00,active
+75,5022,Henry Davies,henry.davies100022@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-28 00:00:00,2025-09-20 00:00:00,active
+76,5022,Henry Davies,henry.davies100022@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-02-02 00:00:00,active
+77,5022,Henry Davies,henry.davies100022@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-04-19 00:00:00,completed
+78,5023,Harry Hughes,harry.hughes100023@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2026-04-26 00:00:00,completed
+79,5023,Harry Hughes,harry.hughes100023@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-03 00:00:00,2026-02-24 00:00:00,active
+80,5024,Sophia Patel,sophia.patel100024@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-23 00:00:00,2025-09-25 00:00:00,completed
+81,5024,Sophia Patel,sophia.patel100024@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-04 00:00:00,2025-10-11 00:00:00,active
+82,5025,William Hall,william.hall100025@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-10-11 00:00:00,active
+83,5025,William Hall,william.hall100025@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-23 00:00:00,2026-03-24 00:00:00,active
+84,5026,Jack Walker,jack.walker100026@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2026-04-14 00:00:00,active
+85,5026,Jack Walker,jack.walker100026@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-07 00:00:00,2025-10-07 00:00:00,active
+86,5026,Jack Walker,jack.walker100026@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-26 00:00:00,2025-12-12 00:00:00,active
+87,5026,Jack Walker,jack.walker100026@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-22 00:00:00,2025-11-10 00:00:00,active
+88,5027,Sophie Jones,sophie.jones100027@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-25 00:00:00,2025-08-26 00:00:00,completed
+89,5027,Sophie Jones,sophie.jones100027@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-03 00:00:00,2026-05-01 00:00:00,active
+90,5028,Jack Jones,jack.jones100028@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-29 00:00:00,2026-04-18 00:00:00,active
+91,5028,Jack Jones,jack.jones100028@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-01-09 00:00:00,active
+92,5029,Thomas Walker,thomas.walker100029@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-09 00:00:00,2025-10-17 00:00:00,active
+93,5029,Thomas Walker,thomas.walker100029@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-24 00:00:00,2025-09-29 00:00:00,active
+94,5029,Thomas Walker,thomas.walker100029@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2026-01-29 00:00:00,active
+95,5030,Sophia Patel,sophia.patel100030@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-01 00:00:00,2026-01-18 00:00:00,completed
+96,5030,Sophia Patel,sophia.patel100030@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-03 00:00:00,2025-10-14 00:00:00,active
+97,5030,Sophia Patel,sophia.patel100030@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-02-14 00:00:00,active
+98,5031,Olivia Johnson,olivia.johnson100031@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-07 00:00:00,2025-09-17 00:00:00,active
+99,5031,Olivia Johnson,olivia.johnson100031@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2025-09-27 00:00:00,active
+100,5032,William Thomas,william.thomas100032@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-11-28 00:00:00,completed
+101,5032,William Thomas,william.thomas100032@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-04-05 00:00:00,completed
+102,5032,William Thomas,william.thomas100032@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-22 00:00:00,2026-04-19 00:00:00,active
+103,5033,Emily Walker,emily.walker100033@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2026-02-09 00:00:00,completed
+104,5033,Emily Walker,emily.walker100033@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-04 00:00:00,2026-01-29 00:00:00,completed
+105,5033,Emily Walker,emily.walker100033@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-06 00:00:00,2025-09-24 00:00:00,completed
+106,5034,Ava Edwards,ava.edwards100034@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-30 00:00:00,2025-10-28 00:00:00,completed
+107,5034,Ava Edwards,ava.edwards100034@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2025-09-05 00:00:00,completed
+108,5035,Sophia Hughes,sophia.hughes100035@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-31 00:00:00,2026-05-13 00:00:00,completed
+109,5035,Sophia Hughes,sophia.hughes100035@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-12-03 00:00:00,active
+110,5035,Sophia Hughes,sophia.hughes100035@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-06 00:00:00,2025-11-12 00:00:00,active
+111,5036,Isla Patel,isla.patel100036@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-20 00:00:00,2025-12-20 00:00:00,active
+112,5036,Isla Patel,isla.patel100036@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-29 00:00:00,2025-09-05 00:00:00,completed
+113,5036,Isla Patel,isla.patel100036@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-22 00:00:00,2025-12-15 00:00:00,active
+114,5037,Isla Davies,isla.davies100037@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-04 00:00:00,2026-01-31 00:00:00,active
+115,5037,Isla Davies,isla.davies100037@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-05-07 00:00:00,completed
+116,5037,Isla Davies,isla.davies100037@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-04-17 00:00:00,active
+117,5038,Lucas Hall,lucas.hall100038@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2025-09-28 00:00:00,active
+118,5038,Lucas Hall,lucas.hall100038@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-02 00:00:00,2026-02-23 00:00:00,active
+119,5038,Lucas Hall,lucas.hall100038@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-20 00:00:00,2026-01-11 00:00:00,active
+120,5039,Henry Patel,henry.patel100039@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-03 00:00:00,2026-05-08 00:00:00,active
+121,5039,Henry Patel,henry.patel100039@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-30 00:00:00,2026-03-11 00:00:00,completed
+122,5039,Henry Patel,henry.patel100039@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-30 00:00:00,2025-12-04 00:00:00,active
+123,5039,Henry Patel,henry.patel100039@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-03-22 00:00:00,active
+124,5040,Lucas Thomas,lucas.thomas100040@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-01 00:00:00,2026-03-17 00:00:00,active
+125,5040,Lucas Thomas,lucas.thomas100040@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-04 00:00:00,2025-09-22 00:00:00,active
+126,5040,Lucas Thomas,lucas.thomas100040@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-05 00:00:00,2026-02-21 00:00:00,active
+127,5041,Leo Thomas,leo.thomas100041@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-20 00:00:00,2025-11-01 00:00:00,completed
+128,5041,Leo Thomas,leo.thomas100041@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-09 00:00:00,2026-05-15 00:00:00,active
+129,5041,Leo Thomas,leo.thomas100041@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-22 00:00:00,2026-04-19 00:00:00,active
+130,5042,Sophia Roberts,sophia.roberts100042@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-30 00:00:00,2026-03-12 00:00:00,active
+131,5042,Sophia Roberts,sophia.roberts100042@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2026-03-11 00:00:00,completed
+132,5042,Sophia Roberts,sophia.roberts100042@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-06 00:00:00,2025-09-24 00:00:00,active
+133,5043,Jack Williams,jack.williams100043@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-12-23 00:00:00,active
+134,5043,Jack Williams,jack.williams100043@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-02 00:00:00,2025-10-22 00:00:00,active
+135,5044,Freya Edwards,freya.edwards100044@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-21 00:00:00,2026-02-03 00:00:00,active
+136,5044,Freya Edwards,freya.edwards100044@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-02-28 00:00:00,active
+137,5044,Freya Edwards,freya.edwards100044@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-02 00:00:00,2025-11-15 00:00:00,active
+138,5045,Olivia Jones,olivia.jones100045@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2025-10-04 00:00:00,completed
+139,5045,Olivia Jones,olivia.jones100045@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-08 00:00:00,2026-03-01 00:00:00,active
+140,5045,Olivia Jones,olivia.jones100045@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-11-16 00:00:00,active
+141,5045,Olivia Jones,olivia.jones100045@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-01-11 00:00:00,completed
+142,5046,Archie Brown,archie.brown100046@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-11-17 00:00:00,active
+143,5046,Archie Brown,archie.brown100046@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-03 00:00:00,2026-02-26 00:00:00,active
+144,5046,Archie Brown,archie.brown100046@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-09 00:00:00,2026-05-13 00:00:00,completed
+145,5047,Isla Wilson,isla.wilson100047@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-01 00:00:00,2026-05-06 00:00:00,active
+146,5047,Isla Wilson,isla.wilson100047@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-27 00:00:00,2026-03-10 00:00:00,active
+147,5047,Isla Wilson,isla.wilson100047@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-02-05 00:00:00,active
+148,5047,Isla Wilson,isla.wilson100047@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-20 00:00:00,2026-03-10 00:00:00,active
+149,5048,Thomas White,thomas.white100048@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-21 00:00:00,2026-05-02 00:00:00,active
+150,5048,Thomas White,thomas.white100048@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-02-23 00:00:00,active
+151,5049,Theo Taylor,theo.taylor100049@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2025-10-03 00:00:00,active
+152,5049,Theo Taylor,theo.taylor100049@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-29 00:00:00,2026-04-11 00:00:00,active
+153,5049,Theo Taylor,theo.taylor100049@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-03-12 00:00:00,active
+154,5049,Theo Taylor,theo.taylor100049@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-01-20 00:00:00,active
+155,5050,Sophia Thompson,sophia.thompson100050@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-03-12 00:00:00,active
+156,5050,Sophia Thompson,sophia.thompson100050@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-01-03 00:00:00,completed
+157,5050,Sophia Thompson,sophia.thompson100050@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-29 00:00:00,2026-02-18 00:00:00,active
+158,5050,Sophia Thompson,sophia.thompson100050@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-10-11 00:00:00,active
+159,5051,Theo Hughes,theo.hughes100051@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-01 00:00:00,2026-03-07 00:00:00,active
+160,5051,Theo Hughes,theo.hughes100051@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-01 00:00:00,2025-09-08 00:00:00,active
+161,5052,Freya Patel,freya.patel100052@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-07 00:00:00,2026-03-21 00:00:00,active
+162,5052,Freya Patel,freya.patel100052@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-23 00:00:00,2025-12-20 00:00:00,completed
+163,5052,Freya Patel,freya.patel100052@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-20 00:00:00,2026-02-03 00:00:00,active
+164,5052,Freya Patel,freya.patel100052@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-09-25 00:00:00,completed
+165,5053,Henry Smith,henry.smith100053@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-09-16 00:00:00,active
+166,5053,Henry Smith,henry.smith100053@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-05-08 00:00:00,active
+167,5053,Henry Smith,henry.smith100053@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-23 00:00:00,2025-12-21 00:00:00,active
+168,5053,Henry Smith,henry.smith100053@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-01 00:00:00,2026-04-21 00:00:00,active
+169,5054,Jacob Brown,jacob.brown100054@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-02 00:00:00,2025-10-22 00:00:00,completed
+170,5054,Jacob Brown,jacob.brown100054@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-08 00:00:00,2025-12-21 00:00:00,active
+171,5054,Jacob Brown,jacob.brown100054@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-02-26 00:00:00,active
+172,5054,Jacob Brown,jacob.brown100054@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-04-18 00:00:00,active
+173,5055,Jacob Hall,jacob.hall100055@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-06 00:00:00,2026-03-08 00:00:00,active
+174,5055,Jacob Hall,jacob.hall100055@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-01 00:00:00,2026-01-20 00:00:00,active
+175,5055,Jacob Hall,jacob.hall100055@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-23 00:00:00,2026-04-12 00:00:00,active
+176,5056,Ruby Patel,ruby.patel100056@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-02-07 00:00:00,active
+177,5056,Ruby Patel,ruby.patel100056@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-12-07 00:00:00,active
+178,5056,Ruby Patel,ruby.patel100056@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-06 00:00:00,2025-12-21 00:00:00,active
+179,5056,Ruby Patel,ruby.patel100056@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2026-02-11 00:00:00,active
+180,5057,Ruby Walker,ruby.walker100057@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-06 00:00:00,2026-01-12 00:00:00,active
+181,5057,Ruby Walker,ruby.walker100057@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-23 00:00:00,2025-09-05 00:00:00,active
+182,5057,Ruby Walker,ruby.walker100057@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-20 00:00:00,2026-02-19 00:00:00,active
+183,5057,Ruby Walker,ruby.walker100057@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-07 00:00:00,2026-02-19 00:00:00,active
+184,5058,George Wright,george.wright100058@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-03-27 00:00:00,active
+185,5058,George Wright,george.wright100058@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-22 00:00:00,2026-04-22 00:00:00,completed
+186,5059,Leo Wilson,leo.wilson100059@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-05-18 00:00:00,active
+187,5059,Leo Wilson,leo.wilson100059@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-08 00:00:00,2025-09-19 00:00:00,active
+188,5059,Leo Wilson,leo.wilson100059@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-03 00:00:00,2025-09-18 00:00:00,active
+189,5060,Grace Smith,grace.smith100060@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-04-19 00:00:00,active
+190,5060,Grace Smith,grace.smith100060@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-02-02 00:00:00,active
+191,5060,Grace Smith,grace.smith100060@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-22 00:00:00,2025-10-25 00:00:00,active
+192,5061,Lucas Patel,lucas.patel100061@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-01 00:00:00,2026-01-29 00:00:00,completed
+193,5061,Lucas Patel,lucas.patel100061@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-05 00:00:00,2026-04-13 00:00:00,active
+194,5061,Lucas Patel,lucas.patel100061@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-23 00:00:00,2025-12-11 00:00:00,completed
+195,5061,Lucas Patel,lucas.patel100061@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-03 00:00:00,2025-12-28 00:00:00,completed
+196,5062,Freya Wilson,freya.wilson100062@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-23 00:00:00,2026-01-30 00:00:00,completed
+197,5062,Freya Wilson,freya.wilson100062@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-01-07 00:00:00,active
+198,5062,Freya Wilson,freya.wilson100062@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-04-23 00:00:00,active
+199,5063,Freya Brown,freya.brown100063@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-02 00:00:00,2025-10-21 00:00:00,active
+200,5063,Freya Brown,freya.brown100063@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-09-23 00:00:00,active
+201,5064,Archie Wright,archie.wright100064@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-21 00:00:00,2026-01-15 00:00:00,active
+202,5064,Archie Wright,archie.wright100064@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-10-23 00:00:00,active
+203,5064,Archie Wright,archie.wright100064@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2026-04-27 00:00:00,active
+204,5064,Archie Wright,archie.wright100064@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-23 00:00:00,2026-02-18 00:00:00,active
+205,5065,Sophie Green,sophie.green100065@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-04-03 00:00:00,active
+206,5065,Sophie Green,sophie.green100065@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-08 00:00:00,2026-05-03 00:00:00,active
+207,5066,Theo Johnson,theo.johnson100066@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-02-18 00:00:00,active
+208,5066,Theo Johnson,theo.johnson100066@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-20 00:00:00,2025-11-20 00:00:00,active
+209,5067,Isla Roberts,isla.roberts100067@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-05-15 00:00:00,active
+210,5067,Isla Roberts,isla.roberts100067@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-05-20 00:00:00,active
+211,5067,Isla Roberts,isla.roberts100067@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-01 00:00:00,2026-04-03 00:00:00,completed
+212,5067,Isla Roberts,isla.roberts100067@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-11-18 00:00:00,active
+213,5068,Ruby Wilson,ruby.wilson100068@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-08 00:00:00,2025-09-29 00:00:00,active
+214,5068,Ruby Wilson,ruby.wilson100068@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2025-11-12 00:00:00,active
+215,5068,Ruby Wilson,ruby.wilson100068@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-22 00:00:00,2026-01-08 00:00:00,completed
+216,5069,Henry Green,henry.green100069@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-02 00:00:00,2026-01-19 00:00:00,active
+217,5069,Henry Green,henry.green100069@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-05 00:00:00,2025-11-02 00:00:00,active
+218,5069,Henry Green,henry.green100069@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-02 00:00:00,2025-10-28 00:00:00,active
+219,5069,Henry Green,henry.green100069@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-05-14 00:00:00,active
+220,5070,William Smith,william.smith100070@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-08 00:00:00,2025-09-22 00:00:00,active
+221,5070,William Smith,william.smith100070@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-26 00:00:00,2026-01-27 00:00:00,active
+222,5071,Theo Walker,theo.walker100071@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-10-30 00:00:00,active
+223,5071,Theo Walker,theo.walker100071@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-04 00:00:00,2026-04-12 00:00:00,active
+224,5072,Arthur Smith,arthur.smith100072@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-27 00:00:00,2026-05-10 00:00:00,active
+225,5072,Arthur Smith,arthur.smith100072@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-03-13 00:00:00,active
+226,5073,George Roberts,george.roberts100073@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-30 00:00:00,2026-04-06 00:00:00,completed
+227,5073,George Roberts,george.roberts100073@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-09 00:00:00,2025-12-24 00:00:00,active
+228,5073,George Roberts,george.roberts100073@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-23 00:00:00,2026-03-18 00:00:00,active
+229,5074,Emily Wright,emily.wright100074@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-31 00:00:00,2025-10-15 00:00:00,completed
+230,5074,Emily Wright,emily.wright100074@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-23 00:00:00,2025-12-25 00:00:00,completed
+231,5074,Emily Wright,emily.wright100074@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-07 00:00:00,2026-03-31 00:00:00,active
+232,5075,Jack Jones,jack.jones100075@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-11-24 00:00:00,active
+233,5075,Jack Jones,jack.jones100075@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-05 00:00:00,2025-11-02 00:00:00,active
+234,5075,Jack Jones,jack.jones100075@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-02-26 00:00:00,active
+235,5076,Jack Thomas,jack.thomas100076@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-28 00:00:00,2025-12-07 00:00:00,active
+236,5076,Jack Thomas,jack.thomas100076@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-08 00:00:00,2025-10-17 00:00:00,active
+237,5077,Olivia Taylor,olivia.taylor100077@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-04-20 00:00:00,active
+238,5077,Olivia Taylor,olivia.taylor100077@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-09 00:00:00,2025-11-28 00:00:00,active
+239,5078,Lucas Edwards,lucas.edwards100078@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-09 00:00:00,2025-11-25 00:00:00,active
+240,5078,Lucas Edwards,lucas.edwards100078@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-07 00:00:00,2025-10-05 00:00:00,active
+241,5078,Lucas Edwards,lucas.edwards100078@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2025-10-12 00:00:00,active
+242,5079,Sophie Taylor,sophie.taylor100079@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-31 00:00:00,2026-01-24 00:00:00,active
+243,5079,Sophie Taylor,sophie.taylor100079@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2026-04-18 00:00:00,active
+244,5079,Sophie Taylor,sophie.taylor100079@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-08 00:00:00,2026-02-07 00:00:00,completed
+245,5080,Ruby Hall,ruby.hall100080@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-03 00:00:00,2025-12-08 00:00:00,active
+246,5080,Ruby Hall,ruby.hall100080@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-08 00:00:00,2026-01-07 00:00:00,active
+247,5080,Ruby Hall,ruby.hall100080@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-21 00:00:00,2026-04-08 00:00:00,active
+248,5081,Ruby Williams,ruby.williams100081@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-10-23 00:00:00,active
+249,5081,Ruby Williams,ruby.williams100081@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-27 00:00:00,2026-04-08 00:00:00,completed
+250,5081,Ruby Williams,ruby.williams100081@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-05 00:00:00,2025-11-25 00:00:00,active
+251,5082,Isla Edwards,isla.edwards100082@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-09-25 00:00:00,active
+252,5082,Isla Edwards,isla.edwards100082@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-02-06 00:00:00,active
+253,5082,Isla Edwards,isla.edwards100082@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-03-22 00:00:00,active
+254,5083,Henry Wilson,henry.wilson100083@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-02-10 00:00:00,active
+255,5083,Henry Wilson,henry.wilson100083@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-11-18 00:00:00,active
+256,5083,Henry Wilson,henry.wilson100083@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-29 00:00:00,2026-03-17 00:00:00,active
+257,5084,Mia Green,mia.green100084@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-01 00:00:00,2026-02-16 00:00:00,active
+258,5084,Mia Green,mia.green100084@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-05 00:00:00,2025-10-22 00:00:00,completed
+259,5084,Mia Green,mia.green100084@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-03-09 00:00:00,active
+260,5084,Mia Green,mia.green100084@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-02-05 00:00:00,active
+261,5085,Archie Clarke,archie.clarke100085@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-12-19 00:00:00,active
+262,5085,Archie Clarke,archie.clarke100085@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-24 00:00:00,2025-10-02 00:00:00,active
+263,5086,Leo Johnson,leo.johnson100086@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-05 00:00:00,2025-09-24 00:00:00,active
+264,5086,Leo Johnson,leo.johnson100086@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-08 00:00:00,2025-10-11 00:00:00,completed
+265,5087,William Hall,william.hall100087@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-08 00:00:00,2026-04-03 00:00:00,active
+266,5087,William Hall,william.hall100087@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-09-25 00:00:00,completed
+267,5088,Ruby Johnson,ruby.johnson100088@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-08 00:00:00,2025-11-19 00:00:00,completed
+268,5088,Ruby Johnson,ruby.johnson100088@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-27 00:00:00,2025-12-27 00:00:00,active
+269,5088,Ruby Johnson,ruby.johnson100088@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-04 00:00:00,2025-12-12 00:00:00,active
+270,5089,Poppy Wright,poppy.wright100089@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-01 00:00:00,2026-05-16 00:00:00,completed
+271,5089,Poppy Wright,poppy.wright100089@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-25 00:00:00,2025-12-05 00:00:00,active
+272,5089,Poppy Wright,poppy.wright100089@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-28 00:00:00,2025-09-23 00:00:00,completed
+273,5089,Poppy Wright,poppy.wright100089@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2025-10-22 00:00:00,active
+274,5090,Sophia Roberts,sophia.roberts100090@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-03 00:00:00,2025-11-17 00:00:00,completed
+275,5090,Sophia Roberts,sophia.roberts100090@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-22 00:00:00,2025-12-13 00:00:00,completed
+276,5090,Sophia Roberts,sophia.roberts100090@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2025-09-13 00:00:00,completed
+277,5091,Grace Green,grace.green100091@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-12-29 00:00:00,completed
+278,5091,Grace Green,grace.green100091@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-03-01 00:00:00,active
+279,5092,Grace Brown,grace.brown100092@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2025-12-03 00:00:00,active
+280,5092,Grace Brown,grace.brown100092@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-24 00:00:00,2025-09-12 00:00:00,active
+281,5093,Jack Davies,jack.davies100093@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-09-05 00:00:00,active
+282,5093,Jack Davies,jack.davies100093@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-20 00:00:00,2025-12-29 00:00:00,active
+283,5093,Jack Davies,jack.davies100093@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-24 00:00:00,2026-03-28 00:00:00,active
+284,5094,Olivia Walker,olivia.walker100094@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-12-21 00:00:00,completed
+285,5094,Olivia Walker,olivia.walker100094@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-03-31 00:00:00,completed
+286,5094,Olivia Walker,olivia.walker100094@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-22 00:00:00,2025-10-17 00:00:00,completed
+287,5095,Amelia Thomas,amelia.thomas100095@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-24 00:00:00,2026-01-20 00:00:00,completed
+288,5095,Amelia Thomas,amelia.thomas100095@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-20 00:00:00,2026-02-16 00:00:00,active
+289,5095,Amelia Thomas,amelia.thomas100095@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-04-08 00:00:00,active
+290,5095,Amelia Thomas,amelia.thomas100095@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-05-17 00:00:00,active
+291,5096,Henry Davies,henry.davies100096@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-05 00:00:00,2025-09-15 00:00:00,completed
+292,5096,Henry Davies,henry.davies100096@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-09-26 00:00:00,completed
+293,5097,Evie Davies,evie.davies100097@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-02-14 00:00:00,active
+294,5097,Evie Davies,evie.davies100097@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2025-10-05 00:00:00,active
+295,5097,Evie Davies,evie.davies100097@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2025-09-15 00:00:00,active
+296,5098,Amelia Taylor,amelia.taylor100098@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-04 00:00:00,2025-12-06 00:00:00,active
+297,5098,Amelia Taylor,amelia.taylor100098@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-04-13 00:00:00,active
+298,5098,Amelia Taylor,amelia.taylor100098@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-12-10 00:00:00,active
+299,5098,Amelia Taylor,amelia.taylor100098@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-26 00:00:00,2025-09-16 00:00:00,active
+300,5099,Poppy Jones,poppy.jones100099@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-01-11 00:00:00,active
+301,5099,Poppy Jones,poppy.jones100099@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2025-10-27 00:00:00,active
+302,5099,Poppy Jones,poppy.jones100099@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-31 00:00:00,2025-09-24 00:00:00,active
+303,5100,Jack Taylor,jack.taylor100100@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-01 00:00:00,2026-04-14 00:00:00,completed
+304,5100,Jack Taylor,jack.taylor100100@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-30 00:00:00,2025-12-03 00:00:00,completed
+305,5100,Jack Taylor,jack.taylor100100@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-03-11 00:00:00,active
+306,5101,Emily Jones,emily.jones100101@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-03-30 00:00:00,active
+307,5101,Emily Jones,emily.jones100101@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-02-03 00:00:00,active
+308,5102,Archie Walker,archie.walker100102@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-29 00:00:00,2026-02-01 00:00:00,completed
+309,5102,Archie Walker,archie.walker100102@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-08 00:00:00,2026-03-10 00:00:00,completed
+310,5103,Olivia Green,olivia.green100103@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-31 00:00:00,2026-04-16 00:00:00,active
+311,5103,Olivia Green,olivia.green100103@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-31 00:00:00,2026-04-10 00:00:00,active
+312,5104,Jack Patel,jack.patel100104@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-05 00:00:00,2025-11-25 00:00:00,active
+313,5104,Jack Patel,jack.patel100104@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-24 00:00:00,2026-04-05 00:00:00,active
+314,5104,Jack Patel,jack.patel100104@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2025-09-27 00:00:00,active
+315,5104,Jack Patel,jack.patel100104@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2025-12-11 00:00:00,active
+316,5105,Jacob Edwards,jacob.edwards100105@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-24 00:00:00,2026-04-11 00:00:00,active
+317,5105,Jacob Edwards,jacob.edwards100105@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-31 00:00:00,2026-04-15 00:00:00,active
+318,5105,Jacob Edwards,jacob.edwards100105@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-11-16 00:00:00,active
+319,5106,Ava Hall,ava.hall100106@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2025-10-24 00:00:00,active
+320,5106,Ava Hall,ava.hall100106@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-05-07 00:00:00,completed
+321,5106,Ava Hall,ava.hall100106@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2025-11-05 00:00:00,active
+322,5107,Isla Thomas,isla.thomas100107@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-08 00:00:00,2025-11-20 00:00:00,completed
+323,5107,Isla Thomas,isla.thomas100107@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-26 00:00:00,2025-10-27 00:00:00,active
+324,5107,Isla Thomas,isla.thomas100107@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-04-10 00:00:00,active
+325,5108,Evie Edwards,evie.edwards100108@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-22 00:00:00,2026-01-17 00:00:00,active
+326,5108,Evie Edwards,evie.edwards100108@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-25 00:00:00,2025-11-22 00:00:00,active
+327,5108,Evie Edwards,evie.edwards100108@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-05 00:00:00,2025-12-28 00:00:00,active
+328,5108,Evie Edwards,evie.edwards100108@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-26 00:00:00,2025-11-05 00:00:00,active
+329,5109,Jack Edwards,jack.edwards100109@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-07 00:00:00,2026-03-14 00:00:00,completed
+330,5109,Jack Edwards,jack.edwards100109@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-06 00:00:00,2025-11-11 00:00:00,active
+331,5109,Jack Edwards,jack.edwards100109@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-01-27 00:00:00,completed
+332,5110,Thomas White,thomas.white100110@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-02 00:00:00,2025-10-09 00:00:00,active
+333,5110,Thomas White,thomas.white100110@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-30 00:00:00,2025-10-06 00:00:00,completed
+334,5110,Thomas White,thomas.white100110@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-02-26 00:00:00,active
+335,5110,Thomas White,thomas.white100110@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2025-12-08 00:00:00,active
+336,5111,Ava Brown,ava.brown100111@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-05 00:00:00,2025-11-22 00:00:00,active
+337,5111,Ava Brown,ava.brown100111@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2025-11-15 00:00:00,active
+338,5111,Ava Brown,ava.brown100111@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-27 00:00:00,2026-02-20 00:00:00,active
+339,5112,George White,george.white100112@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-05-11 00:00:00,active
+340,5112,George White,george.white100112@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2026-01-26 00:00:00,active
+341,5113,Oscar White,oscar.white100113@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-02-13 00:00:00,active
+342,5113,Oscar White,oscar.white100113@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-20 00:00:00,2025-09-30 00:00:00,active
+343,5113,Oscar White,oscar.white100113@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-09 00:00:00,2026-03-25 00:00:00,active
+344,5113,Oscar White,oscar.white100113@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-11-01 00:00:00,completed
+345,5114,Leo Hughes,leo.hughes100114@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-01-30 00:00:00,completed
+346,5114,Leo Hughes,leo.hughes100114@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2026-03-22 00:00:00,active
+347,5114,Leo Hughes,leo.hughes100114@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-03 00:00:00,2025-10-10 00:00:00,active
+348,5114,Leo Hughes,leo.hughes100114@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-25 00:00:00,2026-04-07 00:00:00,completed
+349,5115,Archie Jones,archie.jones100115@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-08 00:00:00,2025-10-14 00:00:00,active
+350,5115,Archie Jones,archie.jones100115@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-02-22 00:00:00,completed
+351,5115,Archie Jones,archie.jones100115@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2026-03-01 00:00:00,active
+352,5116,Jacob Brown,jacob.brown100116@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-28 00:00:00,2026-04-15 00:00:00,active
+353,5116,Jacob Brown,jacob.brown100116@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-24 00:00:00,2025-10-12 00:00:00,active
+354,5116,Jacob Brown,jacob.brown100116@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-29 00:00:00,2026-03-13 00:00:00,completed
+355,5117,Noah Thompson,noah.thompson100117@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-02-14 00:00:00,active
+356,5117,Noah Thompson,noah.thompson100117@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2026-05-07 00:00:00,completed
+357,5118,Lucas Walker,lucas.walker100118@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-03-11 00:00:00,completed
+358,5118,Lucas Walker,lucas.walker100118@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-27 00:00:00,2025-12-15 00:00:00,active
+359,5118,Lucas Walker,lucas.walker100118@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-21 00:00:00,2025-09-15 00:00:00,active
+360,5119,Thomas Brown,thomas.brown100119@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-29 00:00:00,2025-09-02 00:00:00,active
+361,5119,Thomas Brown,thomas.brown100119@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2025-11-09 00:00:00,active
+362,5119,Thomas Brown,thomas.brown100119@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-31 00:00:00,2026-03-25 00:00:00,active
+363,5120,Jack Johnson,jack.johnson100120@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2025-12-15 00:00:00,active
+364,5120,Jack Johnson,jack.johnson100120@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-06 00:00:00,2026-01-31 00:00:00,active
+365,5121,Ava Hall,ava.hall100121@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-10-27 00:00:00,active
+366,5121,Ava Hall,ava.hall100121@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-23 00:00:00,2026-03-12 00:00:00,active
+367,5121,Ava Hall,ava.hall100121@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-30 00:00:00,2026-03-05 00:00:00,active
+368,5122,Grace Williams,grace.williams100122@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-01 00:00:00,2026-05-15 00:00:00,active
+369,5122,Grace Williams,grace.williams100122@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-09-09 00:00:00,active
+370,5123,Leo Wilson,leo.wilson100123@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2026-05-14 00:00:00,active
+371,5123,Leo Wilson,leo.wilson100123@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-30 00:00:00,2026-02-09 00:00:00,active
+372,5123,Leo Wilson,leo.wilson100123@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-01 00:00:00,2026-02-01 00:00:00,active
+373,5123,Leo Wilson,leo.wilson100123@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-05-13 00:00:00,active
+374,5124,Mia Hughes,mia.hughes100124@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-23 00:00:00,2026-03-24 00:00:00,active
+375,5124,Mia Hughes,mia.hughes100124@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2025-09-15 00:00:00,completed
+376,5124,Mia Hughes,mia.hughes100124@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-28 00:00:00,2025-12-22 00:00:00,active
+377,5125,Jack Taylor,jack.taylor100125@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-24 00:00:00,2025-12-26 00:00:00,active
+378,5125,Jack Taylor,jack.taylor100125@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-11-02 00:00:00,active
+379,5125,Jack Taylor,jack.taylor100125@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-20 00:00:00,2026-04-02 00:00:00,active
+380,5125,Jack Taylor,jack.taylor100125@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-02 00:00:00,2025-11-18 00:00:00,completed
+381,5126,Grace Hall,grace.hall100126@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-10-30 00:00:00,active
+382,5126,Grace Hall,grace.hall100126@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-02-19 00:00:00,completed
+383,5126,Grace Hall,grace.hall100126@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-05 00:00:00,2026-03-16 00:00:00,active
+384,5126,Grace Hall,grace.hall100126@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-25 00:00:00,2026-04-17 00:00:00,active
+385,5127,George Jones,george.jones100127@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-12-30 00:00:00,active
+386,5127,George Jones,george.jones100127@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-02-05 00:00:00,active
+387,5127,George Jones,george.jones100127@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-01-23 00:00:00,active
+388,5127,George Jones,george.jones100127@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-04 00:00:00,2026-02-13 00:00:00,completed
+389,5128,Ella Hall,ella.hall100128@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-23 00:00:00,2026-03-05 00:00:00,completed
+390,5128,Ella Hall,ella.hall100128@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2025-11-13 00:00:00,active
+391,5128,Ella Hall,ella.hall100128@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-21 00:00:00,2026-01-15 00:00:00,active
+392,5129,Sophie Smith,sophie.smith100129@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-04 00:00:00,2025-12-22 00:00:00,active
+393,5129,Sophie Smith,sophie.smith100129@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-01-22 00:00:00,active
+394,5129,Sophie Smith,sophie.smith100129@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-10-18 00:00:00,active
+395,5130,Olivia Davies,olivia.davies100130@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-05 00:00:00,2025-12-29 00:00:00,active
+396,5130,Olivia Davies,olivia.davies100130@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-10-11 00:00:00,completed
+397,5131,Harry White,harry.white100131@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-08-26 00:00:00,active
+398,5131,Harry White,harry.white100131@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-02 00:00:00,2026-05-03 00:00:00,completed
+399,5131,Harry White,harry.white100131@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-09 00:00:00,2025-10-30 00:00:00,active
+400,5132,Arthur Edwards,arthur.edwards100132@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-22 00:00:00,2025-12-18 00:00:00,active
+401,5132,Arthur Edwards,arthur.edwards100132@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-03-26 00:00:00,active
+402,5132,Arthur Edwards,arthur.edwards100132@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-21 00:00:00,2026-03-12 00:00:00,completed
+403,5133,Ava Thompson,ava.thompson100133@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-08-25 00:00:00,active
+404,5133,Ava Thompson,ava.thompson100133@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-10-31 00:00:00,active
+405,5134,Emily Jones,emily.jones100134@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-05 00:00:00,2026-05-15 00:00:00,active
+406,5134,Emily Jones,emily.jones100134@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-05-02 00:00:00,active
+407,5134,Emily Jones,emily.jones100134@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-26 00:00:00,2025-10-22 00:00:00,active
+408,5135,Harry Thompson,harry.thompson100135@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-11-13 00:00:00,active
+409,5135,Harry Thompson,harry.thompson100135@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-20 00:00:00,2026-02-08 00:00:00,active
+410,5136,Amelia Thompson,amelia.thompson100136@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-02-16 00:00:00,active
+411,5136,Amelia Thompson,amelia.thompson100136@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-10-19 00:00:00,active
+412,5136,Amelia Thompson,amelia.thompson100136@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-04-25 00:00:00,active
+413,5136,Amelia Thompson,amelia.thompson100136@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-27 00:00:00,2025-08-30 00:00:00,active
+414,5137,Mia Hughes,mia.hughes100137@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-01-31 00:00:00,active
+415,5137,Mia Hughes,mia.hughes100137@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-28 00:00:00,2026-02-28 00:00:00,active
+416,5137,Mia Hughes,mia.hughes100137@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-10-20 00:00:00,completed
+417,5138,Charlie White,charlie.white100138@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-10-28 00:00:00,active
+418,5138,Charlie White,charlie.white100138@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-12-22 00:00:00,active
+419,5138,Charlie White,charlie.white100138@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-24 00:00:00,2026-04-25 00:00:00,active
+420,5139,Poppy Hall,poppy.hall100139@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-05-01 00:00:00,active
+421,5139,Poppy Hall,poppy.hall100139@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-27 00:00:00,2025-10-07 00:00:00,completed
+422,5139,Poppy Hall,poppy.hall100139@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-05 00:00:00,2026-03-09 00:00:00,active
+423,5140,Jacob Edwards,jacob.edwards100140@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-26 00:00:00,2025-11-10 00:00:00,active
+424,5140,Jacob Edwards,jacob.edwards100140@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-30 00:00:00,2026-04-13 00:00:00,active
+425,5140,Jacob Edwards,jacob.edwards100140@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-26 00:00:00,2026-05-03 00:00:00,active
+426,5140,Jacob Edwards,jacob.edwards100140@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-05 00:00:00,2026-04-21 00:00:00,active
+427,5141,Isla Johnson,isla.johnson100141@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-10-02 00:00:00,completed
+428,5141,Isla Johnson,isla.johnson100141@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-29 00:00:00,2025-09-09 00:00:00,completed
+429,5141,Isla Johnson,isla.johnson100141@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-08-29 00:00:00,active
+430,5142,Charlie Johnson,charlie.johnson100142@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-22 00:00:00,2025-09-21 00:00:00,active
+431,5142,Charlie Johnson,charlie.johnson100142@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-04 00:00:00,2025-09-20 00:00:00,active
+432,5142,Charlie Johnson,charlie.johnson100142@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-02 00:00:00,2025-12-03 00:00:00,active
+433,5142,Charlie Johnson,charlie.johnson100142@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2026-05-17 00:00:00,completed
+434,5143,Noah Thomas,noah.thomas100143@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-10-12 00:00:00,active
+435,5143,Noah Thomas,noah.thomas100143@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-09 00:00:00,2026-04-17 00:00:00,active
+436,5143,Noah Thomas,noah.thomas100143@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-23 00:00:00,2025-11-22 00:00:00,completed
+437,5144,Lucas Hall,lucas.hall100144@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-29 00:00:00,2026-04-23 00:00:00,completed
+438,5144,Lucas Hall,lucas.hall100144@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-03-19 00:00:00,active
+439,5144,Lucas Hall,lucas.hall100144@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2026-04-19 00:00:00,active
+440,5144,Lucas Hall,lucas.hall100144@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-24 00:00:00,2026-01-12 00:00:00,active
+441,5145,Noah Walker,noah.walker100145@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-27 00:00:00,2025-12-10 00:00:00,active
+442,5145,Noah Walker,noah.walker100145@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-23 00:00:00,2025-09-09 00:00:00,completed
+443,5145,Noah Walker,noah.walker100145@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-08 00:00:00,2026-02-27 00:00:00,active
+444,5145,Noah Walker,noah.walker100145@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2025-09-18 00:00:00,completed
+445,5146,Noah Jones,noah.jones100146@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-10-31 00:00:00,active
+446,5146,Noah Jones,noah.jones100146@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-27 00:00:00,2026-02-06 00:00:00,active
+447,5146,Noah Jones,noah.jones100146@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-01-28 00:00:00,active
+448,5147,Evie Edwards,evie.edwards100147@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-09-28 00:00:00,active
+449,5147,Evie Edwards,evie.edwards100147@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2026-03-01 00:00:00,completed
+450,5147,Evie Edwards,evie.edwards100147@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-05-17 00:00:00,active
+451,5147,Evie Edwards,evie.edwards100147@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2026-03-14 00:00:00,active
+452,5148,Freya Green,freya.green100148@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-12-04 00:00:00,completed
+453,5148,Freya Green,freya.green100148@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-27 00:00:00,2025-12-20 00:00:00,active
+454,5148,Freya Green,freya.green100148@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-04-18 00:00:00,active
+455,5148,Freya Green,freya.green100148@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-04-05 00:00:00,completed
+456,5149,Harry Jones,harry.jones100149@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-12-10 00:00:00,active
+457,5149,Harry Jones,harry.jones100149@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-09-29 00:00:00,completed
+458,5149,Harry Jones,harry.jones100149@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-10-17 00:00:00,active
+459,5149,Harry Jones,harry.jones100149@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-01-05 00:00:00,completed
+460,5150,Freya Taylor,freya.taylor100150@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-26 00:00:00,2025-12-15 00:00:00,completed
+461,5150,Freya Taylor,freya.taylor100150@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-26 00:00:00,2026-02-12 00:00:00,active
+462,5150,Freya Taylor,freya.taylor100150@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-20 00:00:00,2025-12-06 00:00:00,active
+463,5150,Freya Taylor,freya.taylor100150@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-23 00:00:00,2026-04-25 00:00:00,active
+464,5151,Archie Wilson,archie.wilson100151@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-06 00:00:00,2026-02-17 00:00:00,active
+465,5151,Archie Wilson,archie.wilson100151@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2026-04-27 00:00:00,active
+466,5151,Archie Wilson,archie.wilson100151@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-29 00:00:00,2026-01-09 00:00:00,active
+467,5151,Archie Wilson,archie.wilson100151@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-05-17 00:00:00,completed
+468,5152,Olivia Clarke,olivia.clarke100152@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-12-12 00:00:00,active
+469,5152,Olivia Clarke,olivia.clarke100152@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-30 00:00:00,2026-03-29 00:00:00,active
+470,5153,Olivia Davies,olivia.davies100153@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-04-07 00:00:00,active
+471,5153,Olivia Davies,olivia.davies100153@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-12-02 00:00:00,active
+472,5153,Olivia Davies,olivia.davies100153@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2026-03-09 00:00:00,active
+473,5153,Olivia Davies,olivia.davies100153@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-04 00:00:00,2026-02-23 00:00:00,active
+474,5154,Sophia Brown,sophia.brown100154@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-11-28 00:00:00,active
+475,5154,Sophia Brown,sophia.brown100154@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2025-11-04 00:00:00,completed
+476,5154,Sophia Brown,sophia.brown100154@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-25 00:00:00,2025-09-24 00:00:00,active
+477,5155,Emily Thomas,emily.thomas100155@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-20 00:00:00,2026-03-19 00:00:00,active
+478,5155,Emily Thomas,emily.thomas100155@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2025-11-07 00:00:00,active
+479,5156,Jack Thomas,jack.thomas100156@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-03-13 00:00:00,active
+480,5156,Jack Thomas,jack.thomas100156@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-08 00:00:00,2026-02-18 00:00:00,completed
+481,5156,Jack Thomas,jack.thomas100156@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2025-09-12 00:00:00,active
+482,5156,Jack Thomas,jack.thomas100156@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-04-04 00:00:00,active
+483,5157,Theo Jones,theo.jones100157@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-01-30 00:00:00,active
+484,5157,Theo Jones,theo.jones100157@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-04-13 00:00:00,active
+485,5158,Theo Taylor,theo.taylor100158@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-24 00:00:00,2025-12-25 00:00:00,active
+486,5158,Theo Taylor,theo.taylor100158@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-08 00:00:00,2026-01-20 00:00:00,active
+487,5159,Leo Thomas,leo.thomas100159@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2026-03-26 00:00:00,completed
+488,5159,Leo Thomas,leo.thomas100159@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2026-01-09 00:00:00,active
+489,5159,Leo Thomas,leo.thomas100159@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-29 00:00:00,2025-10-09 00:00:00,active
+490,5160,Evie Green,evie.green100160@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2026-05-02 00:00:00,active
+491,5160,Evie Green,evie.green100160@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-09-11 00:00:00,active
+492,5161,Lily Patel,lily.patel100161@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-09 00:00:00,2026-03-28 00:00:00,active
+493,5161,Lily Patel,lily.patel100161@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2025-10-25 00:00:00,active
+494,5162,Ava Walker,ava.walker100162@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-01-20 00:00:00,active
+495,5162,Ava Walker,ava.walker100162@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-22 00:00:00,2026-01-12 00:00:00,active
+496,5163,Jack Patel,jack.patel100163@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-11-07 00:00:00,completed
+497,5163,Jack Patel,jack.patel100163@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-22 00:00:00,2026-01-22 00:00:00,active
+498,5164,Sophia Williams,sophia.williams100164@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-03-14 00:00:00,active
+499,5164,Sophia Williams,sophia.williams100164@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-22 00:00:00,2026-05-05 00:00:00,active
+500,5164,Sophia Williams,sophia.williams100164@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-10-10 00:00:00,completed
+501,5164,Sophia Williams,sophia.williams100164@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-27 00:00:00,2025-10-04 00:00:00,active
+502,5165,Jacob Wright,jacob.wright100165@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-20 00:00:00,2026-01-06 00:00:00,completed
+503,5165,Jacob Wright,jacob.wright100165@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-12-29 00:00:00,active
+504,5165,Jacob Wright,jacob.wright100165@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-03-17 00:00:00,completed
+505,5165,Jacob Wright,jacob.wright100165@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2026-03-07 00:00:00,active
+506,5166,Grace Walker,grace.walker100166@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-28 00:00:00,2025-11-14 00:00:00,completed
+507,5166,Grace Walker,grace.walker100166@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2025-10-18 00:00:00,completed
+508,5166,Grace Walker,grace.walker100166@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-30 00:00:00,2026-03-02 00:00:00,active
+509,5166,Grace Walker,grace.walker100166@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-22 00:00:00,2025-08-24 00:00:00,active
+510,5167,William Taylor,william.taylor100167@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2025-10-07 00:00:00,active
+511,5167,William Taylor,william.taylor100167@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-04-19 00:00:00,completed
+512,5167,William Taylor,william.taylor100167@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-23 00:00:00,2025-09-05 00:00:00,active
+513,5168,Amelia Hughes,amelia.hughes100168@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-08 00:00:00,2026-03-27 00:00:00,active
+514,5168,Amelia Hughes,amelia.hughes100168@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-01 00:00:00,2025-09-07 00:00:00,active
+515,5168,Amelia Hughes,amelia.hughes100168@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-02 00:00:00,2026-03-19 00:00:00,active
+516,5169,Theo Thomas,theo.thomas100169@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-25 00:00:00,2026-03-07 00:00:00,active
+517,5169,Theo Thomas,theo.thomas100169@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2026-01-08 00:00:00,active
+518,5169,Theo Thomas,theo.thomas100169@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-28 00:00:00,2026-05-07 00:00:00,active
+519,5169,Theo Thomas,theo.thomas100169@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-22 00:00:00,2025-11-15 00:00:00,completed
+520,5170,George Taylor,george.taylor100170@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-02-22 00:00:00,active
+521,5170,George Taylor,george.taylor100170@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-05-07 00:00:00,active
+522,5170,George Taylor,george.taylor100170@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-03 00:00:00,2025-10-27 00:00:00,active
+523,5171,Henry Johnson,henry.johnson100171@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-08 00:00:00,2025-12-14 00:00:00,active
+524,5171,Henry Johnson,henry.johnson100171@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-02-21 00:00:00,completed
+525,5171,Henry Johnson,henry.johnson100171@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2026-05-16 00:00:00,active
+526,5172,Freya Patel,freya.patel100172@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-04 00:00:00,2026-02-11 00:00:00,active
+527,5172,Freya Patel,freya.patel100172@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-01 00:00:00,2026-02-11 00:00:00,active
+528,5172,Freya Patel,freya.patel100172@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-09 00:00:00,2026-01-12 00:00:00,active
+529,5173,Isla Roberts,isla.roberts100173@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-10-28 00:00:00,active
+530,5173,Isla Roberts,isla.roberts100173@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-12-08 00:00:00,active
+531,5173,Isla Roberts,isla.roberts100173@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-12-19 00:00:00,completed
+532,5174,Emily Taylor,emily.taylor100174@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-11-14 00:00:00,active
+533,5174,Emily Taylor,emily.taylor100174@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-27 00:00:00,2026-01-03 00:00:00,active
+534,5174,Emily Taylor,emily.taylor100174@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-02 00:00:00,2026-03-14 00:00:00,active
+535,5175,Emily Davies,emily.davies100175@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-01 00:00:00,2026-05-18 00:00:00,completed
+536,5175,Emily Davies,emily.davies100175@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-06 00:00:00,2025-09-24 00:00:00,active
+537,5175,Emily Davies,emily.davies100175@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-06 00:00:00,2025-10-19 00:00:00,active
+538,5176,Oscar Wright,oscar.wright100176@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2025-11-24 00:00:00,active
+539,5176,Oscar Wright,oscar.wright100176@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-03-30 00:00:00,active
+540,5177,Harry Hughes,harry.hughes100177@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-28 00:00:00,2025-12-19 00:00:00,active
+541,5177,Harry Hughes,harry.hughes100177@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-03 00:00:00,2026-03-13 00:00:00,completed
+542,5177,Harry Hughes,harry.hughes100177@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-05-17 00:00:00,active
+543,5178,Sophie Hall,sophie.hall100178@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2026-03-29 00:00:00,active
+544,5178,Sophie Hall,sophie.hall100178@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-23 00:00:00,2025-11-03 00:00:00,active
+545,5178,Sophie Hall,sophie.hall100178@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-29 00:00:00,2026-02-20 00:00:00,completed
+546,5179,Poppy Wright,poppy.wright100179@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-05-01 00:00:00,active
+547,5179,Poppy Wright,poppy.wright100179@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-03 00:00:00,2026-04-22 00:00:00,active
+548,5180,Theo Green,theo.green100180@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-23 00:00:00,2025-09-03 00:00:00,active
+549,5180,Theo Green,theo.green100180@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2025-10-06 00:00:00,active
+550,5181,Amelia Hall,amelia.hall100181@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2026-02-10 00:00:00,completed
+551,5181,Amelia Hall,amelia.hall100181@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-03 00:00:00,2025-12-30 00:00:00,completed
+552,5181,Amelia Hall,amelia.hall100181@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-10-26 00:00:00,active
+553,5181,Amelia Hall,amelia.hall100181@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-02-24 00:00:00,completed
+554,5182,Charlie Brown,charlie.brown100182@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-03 00:00:00,2026-04-10 00:00:00,completed
+555,5182,Charlie Brown,charlie.brown100182@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-20 00:00:00,2025-12-07 00:00:00,active
+556,5182,Charlie Brown,charlie.brown100182@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-09-29 00:00:00,active
+557,5183,Emily Williams,emily.williams100183@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-10-31 00:00:00,active
+558,5183,Emily Williams,emily.williams100183@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-04 00:00:00,2026-02-11 00:00:00,completed
+559,5183,Emily Williams,emily.williams100183@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-08 00:00:00,2025-12-17 00:00:00,active
+560,5183,Emily Williams,emily.williams100183@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-02-27 00:00:00,completed
+561,5184,Mia Brown,mia.brown100184@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-01-31 00:00:00,active
+562,5184,Mia Brown,mia.brown100184@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-01-30 00:00:00,active
+563,5184,Mia Brown,mia.brown100184@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-03-04 00:00:00,active
+564,5184,Mia Brown,mia.brown100184@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-05 00:00:00,2026-03-22 00:00:00,completed
+565,5185,Emily Brown,emily.brown100185@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-05-01 00:00:00,active
+566,5185,Emily Brown,emily.brown100185@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-06 00:00:00,2025-11-30 00:00:00,completed
+567,5185,Emily Brown,emily.brown100185@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-29 00:00:00,2025-11-08 00:00:00,active
+568,5185,Emily Brown,emily.brown100185@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-30 00:00:00,2026-04-17 00:00:00,active
+569,5186,Lucas Hall,lucas.hall100186@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2026-03-10 00:00:00,completed
+570,5186,Lucas Hall,lucas.hall100186@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-02 00:00:00,2026-05-11 00:00:00,completed
+571,5186,Lucas Hall,lucas.hall100186@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-05-11 00:00:00,active
+572,5187,Isla Patel,isla.patel100187@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-27 00:00:00,2026-01-23 00:00:00,active
+573,5187,Isla Patel,isla.patel100187@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-28 00:00:00,2025-12-21 00:00:00,active
+574,5188,Charlie Clarke,charlie.clarke100188@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-04 00:00:00,2025-10-31 00:00:00,active
+575,5188,Charlie Clarke,charlie.clarke100188@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-28 00:00:00,2026-03-03 00:00:00,active
+576,5189,Ava Walker,ava.walker100189@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-23 00:00:00,2025-12-27 00:00:00,active
+577,5189,Ava Walker,ava.walker100189@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-04-08 00:00:00,active
+578,5189,Ava Walker,ava.walker100189@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-10-14 00:00:00,completed
+579,5189,Ava Walker,ava.walker100189@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-23 00:00:00,2025-12-22 00:00:00,active
+580,5190,Ava Patel,ava.patel100190@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-25 00:00:00,2025-11-04 00:00:00,active
+581,5190,Ava Patel,ava.patel100190@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-09-25 00:00:00,active
+582,5190,Ava Patel,ava.patel100190@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-01-27 00:00:00,active
+583,5190,Ava Patel,ava.patel100190@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-01-26 00:00:00,active
+584,5191,Freya Edwards,freya.edwards100191@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2025-10-02 00:00:00,active
+585,5191,Freya Edwards,freya.edwards100191@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-09 00:00:00,2025-10-11 00:00:00,active
+586,5191,Freya Edwards,freya.edwards100191@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-27 00:00:00,2025-11-09 00:00:00,active
+587,5191,Freya Edwards,freya.edwards100191@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-03-16 00:00:00,completed
+588,5192,Mia Jones,mia.jones100192@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-28 00:00:00,2026-03-28 00:00:00,completed
+589,5192,Mia Jones,mia.jones100192@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-03 00:00:00,2025-10-11 00:00:00,active
+590,5193,Olivia White,olivia.white100193@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-05-10 00:00:00,active
+591,5193,Olivia White,olivia.white100193@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-09-08 00:00:00,active
+592,5193,Olivia White,olivia.white100193@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-03 00:00:00,2026-03-05 00:00:00,active
+593,5194,Sophie Patel,sophie.patel100194@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-01-19 00:00:00,active
+594,5194,Sophie Patel,sophie.patel100194@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-29 00:00:00,2026-02-17 00:00:00,active
+595,5194,Sophie Patel,sophie.patel100194@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-07 00:00:00,2026-05-13 00:00:00,active
+596,5194,Sophie Patel,sophie.patel100194@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-09-13 00:00:00,active
+597,5195,Noah Smith,noah.smith100195@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-03 00:00:00,2026-04-24 00:00:00,active
+598,5195,Noah Smith,noah.smith100195@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-02 00:00:00,2025-12-14 00:00:00,active
+599,5195,Noah Smith,noah.smith100195@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-09 00:00:00,2025-11-25 00:00:00,active
+600,5195,Noah Smith,noah.smith100195@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-28 00:00:00,2025-10-14 00:00:00,active
+601,5196,Lily Williams,lily.williams100196@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-21 00:00:00,2026-03-11 00:00:00,active
+602,5196,Lily Williams,lily.williams100196@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2026-04-03 00:00:00,active
+603,5196,Lily Williams,lily.williams100196@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-23 00:00:00,2025-08-23 00:00:00,active
+604,5197,Ella Patel,ella.patel100197@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-27 00:00:00,2026-05-19 00:00:00,completed
+605,5197,Ella Patel,ella.patel100197@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-20 00:00:00,2025-08-24 00:00:00,active
+606,5197,Ella Patel,ella.patel100197@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-23 00:00:00,2026-03-27 00:00:00,active
+607,5198,Harry Hughes,harry.hughes100198@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-22 00:00:00,2025-10-13 00:00:00,active
+608,5198,Harry Hughes,harry.hughes100198@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-03-06 00:00:00,active
+609,5198,Harry Hughes,harry.hughes100198@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2026-03-07 00:00:00,active
+610,5199,Henry White,henry.white100199@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-09-11 00:00:00,active
+611,5199,Henry White,henry.white100199@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-03-01 00:00:00,active
+612,5199,Henry White,henry.white100199@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-09 00:00:00,2026-03-19 00:00:00,active
+613,5199,Henry White,henry.white100199@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-02 00:00:00,2026-04-16 00:00:00,active
+614,5200,Henry Smith,henry.smith100200@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-23 00:00:00,2026-03-07 00:00:00,active
+615,5200,Henry Smith,henry.smith100200@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-02-10 00:00:00,active
+616,5201,George Taylor,george.taylor100201@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-22 00:00:00,2025-12-27 00:00:00,active
+617,5201,George Taylor,george.taylor100201@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-20 00:00:00,2026-01-21 00:00:00,active
+618,5202,Emily Williams,emily.williams100202@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-29 00:00:00,2025-09-25 00:00:00,active
+619,5202,Emily Williams,emily.williams100202@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-03-20 00:00:00,active
+620,5202,Emily Williams,emily.williams100202@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-27 00:00:00,2026-05-09 00:00:00,active
+621,5202,Emily Williams,emily.williams100202@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-05 00:00:00,2025-09-11 00:00:00,active
+622,5203,Henry Jones,henry.jones100203@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-03-08 00:00:00,active
+623,5203,Henry Jones,henry.jones100203@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2025-10-11 00:00:00,active
+624,5203,Henry Jones,henry.jones100203@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-07 00:00:00,2025-10-11 00:00:00,active
+625,5204,Sophie Roberts,sophie.roberts100204@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-01 00:00:00,2026-05-18 00:00:00,active
+626,5204,Sophie Roberts,sophie.roberts100204@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2026-03-10 00:00:00,completed
+627,5204,Sophie Roberts,sophie.roberts100204@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-03-26 00:00:00,active
+628,5205,Evie Hall,evie.hall100205@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-28 00:00:00,2025-10-09 00:00:00,active
+629,5205,Evie Hall,evie.hall100205@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-05-10 00:00:00,active
+630,5205,Evie Hall,evie.hall100205@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-24 00:00:00,2026-02-07 00:00:00,completed
+631,5205,Evie Hall,evie.hall100205@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-10-10 00:00:00,active
+632,5206,Isla White,isla.white100206@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2026-04-01 00:00:00,active
+633,5206,Isla White,isla.white100206@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-03 00:00:00,2025-10-01 00:00:00,active
+634,5206,Isla White,isla.white100206@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2025-10-25 00:00:00,active
+635,5206,Isla White,isla.white100206@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-08-29 00:00:00,active
+636,5207,Isla Jones,isla.jones100207@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-28 00:00:00,2025-11-21 00:00:00,active
+637,5207,Isla Jones,isla.jones100207@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-24 00:00:00,2026-01-08 00:00:00,active
+638,5207,Isla Jones,isla.jones100207@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-20 00:00:00,2026-02-07 00:00:00,completed
+639,5208,Charlie Roberts,charlie.roberts100208@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-07 00:00:00,2025-10-16 00:00:00,completed
+640,5208,Charlie Roberts,charlie.roberts100208@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-03 00:00:00,2026-03-06 00:00:00,active
+641,5208,Charlie Roberts,charlie.roberts100208@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-11-28 00:00:00,active
+642,5209,Emily Jones,emily.jones100209@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-11-05 00:00:00,active
+643,5209,Emily Jones,emily.jones100209@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-05 00:00:00,2025-09-06 00:00:00,active
+644,5210,Emily Roberts,emily.roberts100210@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-03-09 00:00:00,completed
+645,5210,Emily Roberts,emily.roberts100210@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-24 00:00:00,2025-11-23 00:00:00,active
+646,5211,Ava Davies,ava.davies100211@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-30 00:00:00,2026-01-04 00:00:00,completed
+647,5211,Ava Davies,ava.davies100211@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-30 00:00:00,2026-01-15 00:00:00,active
+648,5211,Ava Davies,ava.davies100211@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-07 00:00:00,2026-03-16 00:00:00,active
+649,5211,Ava Davies,ava.davies100211@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-05 00:00:00,2025-10-01 00:00:00,active
+650,5212,Jacob Brown,jacob.brown100212@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-10-06 00:00:00,completed
+651,5212,Jacob Brown,jacob.brown100212@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2026-02-04 00:00:00,active
+652,5213,Oscar Hall,oscar.hall100213@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-20 00:00:00,2026-02-24 00:00:00,active
+653,5213,Oscar Hall,oscar.hall100213@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-29 00:00:00,2026-01-31 00:00:00,active
+654,5214,Emily White,emily.white100214@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-12-29 00:00:00,active
+655,5214,Emily White,emily.white100214@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-20 00:00:00,2026-03-17 00:00:00,active
+656,5214,Emily White,emily.white100214@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-27 00:00:00,2026-02-20 00:00:00,active
+657,5215,Theo Williams,theo.williams100215@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2025-10-21 00:00:00,active
+658,5215,Theo Williams,theo.williams100215@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-01-04 00:00:00,completed
+659,5215,Theo Williams,theo.williams100215@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2025-10-04 00:00:00,active
+660,5216,William Davies,william.davies100216@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-05 00:00:00,2026-04-04 00:00:00,active
+661,5216,William Davies,william.davies100216@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-03 00:00:00,2025-10-16 00:00:00,active
+662,5216,William Davies,william.davies100216@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-05 00:00:00,2025-11-12 00:00:00,completed
+663,5216,William Davies,william.davies100216@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-22 00:00:00,2025-09-22 00:00:00,completed
+664,5217,Archie Wilson,archie.wilson100217@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-30 00:00:00,2026-03-19 00:00:00,active
+665,5217,Archie Wilson,archie.wilson100217@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-30 00:00:00,2026-04-18 00:00:00,active
+666,5217,Archie Wilson,archie.wilson100217@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-27 00:00:00,2025-10-04 00:00:00,active
+667,5217,Archie Wilson,archie.wilson100217@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-24 00:00:00,2025-10-18 00:00:00,active
+668,5218,Thomas Wilson,thomas.wilson100218@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-03 00:00:00,2026-02-10 00:00:00,completed
+669,5218,Thomas Wilson,thomas.wilson100218@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-23 00:00:00,2026-02-22 00:00:00,active
+670,5219,Emily White,emily.white100219@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-23 00:00:00,2025-10-08 00:00:00,active
+671,5219,Emily White,emily.white100219@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-29 00:00:00,2025-09-18 00:00:00,active
+672,5219,Emily White,emily.white100219@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-30 00:00:00,2025-11-13 00:00:00,active
+673,5220,Amelia Wilson,amelia.wilson100220@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-01-21 00:00:00,active
+674,5220,Amelia Wilson,amelia.wilson100220@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2025-09-09 00:00:00,completed
+675,5220,Amelia Wilson,amelia.wilson100220@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-03 00:00:00,2026-01-08 00:00:00,active
+676,5220,Amelia Wilson,amelia.wilson100220@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-03 00:00:00,2025-10-25 00:00:00,active
+677,5221,Lucas Walker,lucas.walker100221@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-27 00:00:00,2025-11-01 00:00:00,active
+678,5221,Lucas Walker,lucas.walker100221@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-01 00:00:00,2026-03-10 00:00:00,active
+679,5222,Thomas White,thomas.white100222@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-22 00:00:00,2025-12-01 00:00:00,completed
+680,5222,Thomas White,thomas.white100222@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-10-10 00:00:00,active
+681,5222,Thomas White,thomas.white100222@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-23 00:00:00,2025-09-13 00:00:00,completed
+682,5222,Thomas White,thomas.white100222@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-21 00:00:00,2025-11-15 00:00:00,completed
+683,5223,Thomas Davies,thomas.davies100223@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-02 00:00:00,2025-11-29 00:00:00,active
+684,5223,Thomas Davies,thomas.davies100223@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-26 00:00:00,2025-11-29 00:00:00,active
+685,5223,Thomas Davies,thomas.davies100223@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-28 00:00:00,2026-04-13 00:00:00,active
+686,5223,Thomas Davies,thomas.davies100223@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-12-24 00:00:00,active
+687,5224,Mia Wilson,mia.wilson100224@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-10-04 00:00:00,active
+688,5224,Mia Wilson,mia.wilson100224@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-11-10 00:00:00,completed
+689,5224,Mia Wilson,mia.wilson100224@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-26 00:00:00,2025-12-31 00:00:00,active
+690,5225,Thomas Brown,thomas.brown100225@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-05-12 00:00:00,active
+691,5225,Thomas Brown,thomas.brown100225@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-07 00:00:00,2026-02-18 00:00:00,completed
+692,5225,Thomas Brown,thomas.brown100225@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-28 00:00:00,2025-11-28 00:00:00,active
+693,5226,Sophia Jones,sophia.jones100226@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-28 00:00:00,2025-09-26 00:00:00,completed
+694,5226,Sophia Jones,sophia.jones100226@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-05 00:00:00,2026-03-07 00:00:00,active
+695,5226,Sophia Jones,sophia.jones100226@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2025-10-15 00:00:00,active
+696,5227,Archie Edwards,archie.edwards100227@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-27 00:00:00,2026-03-13 00:00:00,active
+697,5227,Archie Edwards,archie.edwards100227@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2025-11-23 00:00:00,active
+698,5227,Archie Edwards,archie.edwards100227@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-07 00:00:00,2026-02-16 00:00:00,active
+699,5227,Archie Edwards,archie.edwards100227@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-07 00:00:00,2025-09-21 00:00:00,active
+700,5228,Jack Johnson,jack.johnson100228@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-04 00:00:00,2026-02-09 00:00:00,active
+701,5228,Jack Johnson,jack.johnson100228@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-09-23 00:00:00,active
+702,5228,Jack Johnson,jack.johnson100228@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-21 00:00:00,2025-12-18 00:00:00,active
+703,5228,Jack Johnson,jack.johnson100228@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-20 00:00:00,2026-05-16 00:00:00,completed
+704,5229,Sophie Hughes,sophie.hughes100229@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-26 00:00:00,2025-10-31 00:00:00,active
+705,5229,Sophie Hughes,sophie.hughes100229@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-25 00:00:00,2026-02-06 00:00:00,active
+706,5230,Oscar Wright,oscar.wright100230@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-10-19 00:00:00,active
+707,5230,Oscar Wright,oscar.wright100230@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-22 00:00:00,2026-03-01 00:00:00,completed
+708,5231,Sophie Davies,sophie.davies100231@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-24 00:00:00,2025-11-12 00:00:00,completed
+709,5231,Sophie Davies,sophie.davies100231@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2026-05-12 00:00:00,completed
+710,5231,Sophie Davies,sophie.davies100231@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-11-29 00:00:00,active
+711,5231,Sophie Davies,sophie.davies100231@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-09-06 00:00:00,2026-03-07 00:00:00,active
+712,5232,Jack Smith,jack.smith100232@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-08-29 00:00:00,2025-11-02 00:00:00,active
+713,5232,Jack Smith,jack.smith100232@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-20 00:00:00,2026-03-08 00:00:00,active
+714,5232,Jack Smith,jack.smith100232@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-25 00:00:00,2026-02-03 00:00:00,active
+715,5232,Jack Smith,jack.smith100232@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2026-01-31 00:00:00,active
+716,5233,Jacob Johnson,jacob.johnson100233@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-27 00:00:00,2026-02-20 00:00:00,active
+717,5233,Jacob Johnson,jacob.johnson100233@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2025-10-09 00:00:00,active
+718,5233,Jacob Johnson,jacob.johnson100233@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-03 00:00:00,2025-09-08 00:00:00,active
+719,5234,Sophia Walker,sophia.walker100234@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-01-09 00:00:00,active
+720,5234,Sophia Walker,sophia.walker100234@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-20 00:00:00,2025-09-13 00:00:00,completed
+721,5235,Mia Taylor,mia.taylor100235@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-02 00:00:00,2026-05-12 00:00:00,completed
+722,5235,Mia Taylor,mia.taylor100235@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2026-03-11 00:00:00,active
+723,5235,Mia Taylor,mia.taylor100235@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-04 00:00:00,2025-12-28 00:00:00,active
+724,5236,Ruby Patel,ruby.patel100236@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-08-20 00:00:00,2026-01-30 00:00:00,active
+725,5236,Ruby Patel,ruby.patel100236@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-23 00:00:00,2025-09-29 00:00:00,active
+726,5236,Ruby Patel,ruby.patel100236@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-03-05 00:00:00,active
+727,5237,Oscar Green,oscar.green100237@example-school.org,1001,M2027 Business Management SL Y1,Business Management,SL,M2027,Class 1 - R. Ahmed,R. Ahmed,2025-09-08 00:00:00,2026-05-18 00:00:00,completed
+728,5237,Oscar Green,oscar.green100237@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-08-20 00:00:00,2026-03-28 00:00:00,active
+729,5237,Oscar Green,oscar.green100237@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-09-08 00:00:00,2026-04-23 00:00:00,completed
+730,5237,Oscar Green,oscar.green100237@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2025-09-21 00:00:00,active
+731,5238,Sophia Hall,sophia.hall100238@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-06 00:00:00,2026-01-19 00:00:00,active
+732,5238,Sophia Hall,sophia.hall100238@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-29 00:00:00,2025-12-28 00:00:00,active
+733,5238,Sophia Hall,sophia.hall100238@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2026-03-10 00:00:00,completed
+734,5239,Lily Smith,lily.smith100239@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-20 00:00:00,2026-03-26 00:00:00,active
+735,5239,Lily Smith,lily.smith100239@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2026-05-01 00:00:00,active
+736,5240,George Patel,george.patel100240@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-25 00:00:00,2026-01-21 00:00:00,active
+737,5240,George Patel,george.patel100240@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2025-11-02 00:00:00,active
+738,5241,Harry Thomas,harry.thomas100241@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-22 00:00:00,2026-03-08 00:00:00,active
+739,5241,Harry Thomas,harry.thomas100241@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-31 00:00:00,2026-03-14 00:00:00,active
+740,5241,Harry Thomas,harry.thomas100241@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-25 00:00:00,2026-04-10 00:00:00,active
+741,5242,Mia Jones,mia.jones100242@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-08-27 00:00:00,2026-01-11 00:00:00,active
+742,5242,Mia Jones,mia.jones100242@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-24 00:00:00,2025-10-12 00:00:00,active
+743,5242,Mia Jones,mia.jones100242@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-31 00:00:00,2026-03-30 00:00:00,active
+744,5243,George Clarke,george.clarke100243@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-09-06 00:00:00,2026-05-07 00:00:00,active
+745,5243,George Clarke,george.clarke100243@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-04 00:00:00,2026-02-04 00:00:00,active
+746,5243,George Clarke,george.clarke100243@example-school.org,1008,N2026 English Literature HL Y1,English Literature,HL,N2026,Class 2 - D. Patel,D. Patel,2025-09-01 00:00:00,2025-09-18 00:00:00,active
+747,5243,George Clarke,george.clarke100243@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-23 00:00:00,2026-04-09 00:00:00,active
+748,5244,Leo Roberts,leo.roberts100244@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2025-09-14 00:00:00,completed
+749,5244,Leo Roberts,leo.roberts100244@example-school.org,1011,N2027 History SL Y1,History,SL,N2027,Class 2 - J. Singh,J. Singh,2025-08-22 00:00:00,2026-04-01 00:00:00,active
+750,5245,Lucas Walker,lucas.walker100245@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-08-22 00:00:00,2025-10-05 00:00:00,completed
+751,5245,Lucas Walker,lucas.walker100245@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-06 00:00:00,2026-03-28 00:00:00,active
+752,5245,Lucas Walker,lucas.walker100245@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-28 00:00:00,2026-04-19 00:00:00,active
+753,5245,Lucas Walker,lucas.walker100245@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-08 00:00:00,2026-02-05 00:00:00,completed
+754,5246,Leo Clarke,leo.clarke100246@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-24 00:00:00,2025-10-14 00:00:00,active
+755,5246,Leo Clarke,leo.clarke100246@example-school.org,1002,N2026 Psychology HL Y1,Psychology,HL,N2026,Class 3 - J. Singh,J. Singh,2025-09-07 00:00:00,2025-10-28 00:00:00,active
+756,5247,Freya Brown,freya.brown100247@example-school.org,1005,N2026 Economics SL Y1,Economics,SL,N2026,Class 3 - A. Carter,A. Carter,2025-09-09 00:00:00,2026-01-11 00:00:00,completed
+757,5247,Freya Brown,freya.brown100247@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-08-21 00:00:00,2025-11-17 00:00:00,active
+758,5247,Freya Brown,freya.brown100247@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-01 00:00:00,2025-11-13 00:00:00,completed
+759,5247,Freya Brown,freya.brown100247@example-school.org,1010,M2027 Biology HL Y1,Biology,HL,M2027,Class 1 - J. Singh,J. Singh,2025-08-21 00:00:00,2026-03-11 00:00:00,active
+760,5248,Sophia Thomas,sophia.thomas100248@example-school.org,1003,M2026 Psychology SL Y1,Psychology,SL,M2026,Class 1 - D. Patel,D. Patel,2025-08-31 00:00:00,2025-09-10 00:00:00,active
+761,5248,Sophia Thomas,sophia.thomas100248@example-school.org,1000,M2026 Business Management HL Y1,Business Management,HL,M2026,Class 3 - A. Carter,A. Carter,2025-08-29 00:00:00,2026-02-04 00:00:00,active
+762,5248,Sophia Thomas,sophia.thomas100248@example-school.org,1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,Class 1 - M. Evans,M. Evans,2025-09-04 00:00:00,2025-10-24 00:00:00,active
+763,5248,Sophia Thomas,sophia.thomas100248@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-08-24 00:00:00,2026-01-24 00:00:00,completed
+764,5249,Ava Patel,ava.patel100249@example-school.org,1004,M2026 Economics HL Y1,Economics,HL,M2026,Class 1 - J. Singh,J. Singh,2025-09-09 00:00:00,2025-10-01 00:00:00,active
+765,5249,Ava Patel,ava.patel100249@example-school.org,1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,Class 1 - D. Patel,D. Patel,2025-09-03 00:00:00,2025-12-20 00:00:00,completed
+766,5249,Ava Patel,ava.patel100249@example-school.org,1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,Class 1 - L. Thompson,L. Thompson,2025-09-04 00:00:00,2026-03-14 00:00:00,active

@@ -1,0 +1,13 @@
+course_id,course_name,subject,level,cohort_code,teacher_name,section_name
+1000,M2026 Business Management HL Y1,Business Management,HL,M2026,A. Carter,Class 3 - A. Carter
+1001,M2027 Business Management SL Y1,Business Management,SL,M2027,R. Ahmed,Class 1 - R. Ahmed
+1002,N2026 Psychology HL Y1,Psychology,HL,N2026,J. Singh,Class 3 - J. Singh
+1003,M2026 Psychology SL Y1,Psychology,SL,M2026,D. Patel,Class 1 - D. Patel
+1004,M2026 Economics HL Y1,Economics,HL,M2026,J. Singh,Class 1 - J. Singh
+1005,N2026 Economics SL Y1,Economics,SL,N2026,A. Carter,Class 3 - A. Carter
+1006,N2026 Digital Society HL Y1,Digital Society,HL,N2026,D. Patel,Class 1 - D. Patel
+1007,N2027 Digital Society SL Y1,Digital Society,SL,N2027,M. Evans,Class 1 - M. Evans
+1008,N2026 English Literature HL Y1,English Literature,HL,N2026,D. Patel,Class 2 - D. Patel
+1009,M2027 Mathematics SL Y1,Mathematics,SL,M2027,L. Thompson,Class 1 - L. Thompson
+1010,M2027 Biology HL Y1,Biology,HL,M2027,J. Singh,Class 1 - J. Singh
+1011,N2027 History SL Y1,History,SL,N2027,J. Singh,Class 2 - J. Singh
